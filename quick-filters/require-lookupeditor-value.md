@@ -10,7 +10,7 @@ Set the Select2 option `allowClear` to false by using the Attribute `[QuickFilte
 
 ##### Configure a default value
 
-You can set a default value to be selected in the Lookup Editor. This can be done via a Serenity Grid TypeScript File in the `getQuickFilters()` or `createQuickFilters()` functions. 
+You can set a default value to be selected in the Lookup Editor. This can be done via a Serenity Grid TypeScript File in the `getQuickFilters()` or `createQuickFilters()` functions.
 
 ```js
 protected createQuickFilters(): void {
@@ -21,7 +21,7 @@ protected createQuickFilters(): void {
     let fld = Northwind.OrderRow.Fields;
 
     // find a quick filter widget by its field name
-    this.findQuickFilter(Serenity.EnumEditor, fld.ShippingState).values = Northwind.OrderShippingState.NotShipped.toString();
+    this.findQuickFilter(Serenity.EnumEditor, fld.ShippingState).value = Northwind.OrderShippingState.NotShipped.toString();
 
 
 }
@@ -29,7 +29,5 @@ protected createQuickFilters(): void {
 
 ##### Make an Empty Lookup Editor display no Grid Data
 
-To make a Grid empty when you clear a required Quick Filter you can 
-
-
+To make a Grid empty when you clear a required Quick Filter you can
 
