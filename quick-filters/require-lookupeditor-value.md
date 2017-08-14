@@ -22,8 +22,6 @@ protected createQuickFilters(): void {
 
     // find a quick filter widget by its field name
     this.findQuickFilter(Serenity.EnumEditor, fld.ShippingState).value = Northwind.OrderShippingState.NotShipped.toString();
-
-
 }
 ```
 
