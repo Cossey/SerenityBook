@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Lookup Editors](lookup-editors.md)
-  * Cascaded Lookups
+  * [Cascaded Lookups](lookup-editors/cascaded-lookups.md)
 * [Quick Filters](quick-filters.md)
   * [Creating using Attributes](quick-filters/creating-using-attributes.md)
   * [Creating using Code](quick-filters/creating-using-code.md)
