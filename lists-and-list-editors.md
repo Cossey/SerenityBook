@@ -15,5 +15,5 @@ item[this.getIdProperty()] = id;
 this.view.addItem(item);
 ```
 
-
+This will then make sure this field is populated when inserted. This does not apply to existing items in a List.
 
