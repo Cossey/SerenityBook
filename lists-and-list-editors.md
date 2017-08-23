@@ -4,7 +4,7 @@
 
 #### Inserting via a Form
 
-When inserting a new item into a List via a Form/Dialog you must override the `validateEntity` function to set the values of expression fields that wouldn't be evaluated client side, this only applies to inserting new items. 
+When inserting a new item into a List via a Form/Dialog you must override the `validateEntity` function to set the values of expression fields that wouldn't be evaluated client side.
 
 ```js
 protected validateEntity(row: EntityRow, id: number) {
@@ -12,7 +12,7 @@ protected validateEntity(row: EntityRow, id: number) {
 
     row.ProductID = Q.toId(row.ProductID);    
     row.ProductName = ProductRow.getLookup().itemById[row.ProductID].ProductName;
-    
+
     return true;
 }
 ```
