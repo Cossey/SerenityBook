@@ -1,10 +1,11 @@
 ```js
 export interface LKCodeDescOptions extends Serenity.LookupEditorOptions {
-    codeFieldName: string; descrFieldName: string;
-}
+
+codeFieldName: string;
+descrFieldName: string;
+
+}
 ```
-
-
 
 
 
