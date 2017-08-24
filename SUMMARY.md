@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Lookup Editors](lookup-editors.md)
   * [Cascaded Lookups](lookup-editors/cascaded-lookups.md)
+  * [Displaying Custom/Multiple Fields in the Dropdown](lookup-editors/displaying-custommultiple-fields-in-the-dropdown.md)
 * [Quick Filters](quick-filters.md)
   * [Creating using Attributes](quick-filters/creating-using-attributes.md)
   * [Creating using Code](quick-filters/creating-using-code.md)
