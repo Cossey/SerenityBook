@@ -10,7 +10,7 @@ protected createQuickSearchInput() { }
 
 ### Remove the Toolbar Buttons
 
-To remove the Toolbar buttons from a Grid, override the getButtons\(\) function to return null in an EntityGrid TypeScript file like below:
+To remove the Toolbar buttons from a Grid, override the `getButtons()` function to return null in an EntityGrid TypeScript file like below:
 
 ```js
 protected getButtons() {
