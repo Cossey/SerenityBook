@@ -12,5 +12,6 @@
 * [Updating Rows \(Client Side\)](updating-rows-client-side.md)
 * [Forms](forms.md)
   * [Lists and List Editors](lists-and-list-editors.md)
+  * [Editors](editors.md)
 * [Grids](grids.md)
 
