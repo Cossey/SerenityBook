@@ -1,6 +1,4 @@
 # Lookup Editors
 
-The LookupEditor
-
-
+The LookupEditor allows for easy reference selection.
 
