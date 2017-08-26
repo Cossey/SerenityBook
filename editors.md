@@ -42,21 +42,15 @@ The boolean editor is typically a checkbox field.
 
 ### HtmlContentEditor
 
-
-
 ## Files and Uploading
 
 ### FileUploadEditor
 
 ![](/assets/fileupload.png)
 
-
-
 ### ImageUploadEditor
 
 ![](/assets/filesel.png)
-
-
 
 ## Date and Time
 
@@ -74,7 +68,7 @@ The Date and Time editor allows you to select a date from a drop down.
 
 ### EnumEditor
 
-### LookupEditor
+### [LookupEditor](/lookup-editors.md)
 
 ![](/assets/lookup.png)
 
