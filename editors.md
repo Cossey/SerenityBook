@@ -1,4 +1,4 @@
-# Editors
+# Form Editors
 
 ## Text
 
@@ -22,9 +22,30 @@ The email editor consists of two texts boxes divided by an at \(@\) symbol.
 
 ## Numerical
 
+![](/assets/decint.png)
+
+Numerical fields restrict the input mainly to numerals. In the case of the Decimal Editor, the decimal point can also be pressed.
+
 ### IntegerEditor
 
+The integer editor only allows for numerals to be entered into a input box.
+
 ### DecimalEditor
+
+The Decimal editor allows for a fractional value to be entered.
+
+#### Decimal places
+
+The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, for the Unit Price in the picture above:
+
+```csharp
+[DisplayName("Unit Price"), Scale(2)]
+public Decimal? Price
+{
+    get { return Fields.Price[this]; }
+    set { Fields.Price[this] = value; }
+}
+```
 
 ### PhoneEditor
 
