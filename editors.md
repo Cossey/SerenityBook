@@ -28,10 +28,6 @@ The email editor consists of two texts boxes divided by an at \(@\) symbol.
 
 ### PhoneEditor
 
-
-
-
-
 ### BooleanEditor
 
 ![](/assets/bool.png)
@@ -42,9 +38,7 @@ The boolean editor is typically a checkbox field.
 
 ### HtmlContentEditor
 
-
-
-
+## Files and Uploading
 
 ### ImageUploadEditor
 
@@ -71,8 +65,6 @@ The Date and Time editor allows you to select a date from a drop down.
 ### DateYearEditor
 
 ### TimeEditor
-
-
 
 ### EnumEditor
 
