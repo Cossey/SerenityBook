@@ -36,7 +36,7 @@ The Decimal editor allows for a fractional value to be entered.
 
 #### Decimal places
 
-The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, for the Unit Price in the picture above:
+The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, for the Unit Price in the picture above is set to two decimal places:
 
 ```csharp
 [DisplayName("Unit Price"), Scale(2)]
@@ -46,6 +46,8 @@ public Decimal? Price
     set { Fields.Price[this] = value; }
 }
 ```
+
+> In some cases like accounting, you may want to `Scale` to 4 decimal places.
 
 ### PhoneEditor
 
