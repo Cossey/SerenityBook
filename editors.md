@@ -72,7 +72,7 @@ The Date and Time editor allows you to select a date from a drop down.
 
 ![](/assets/lookup.png)
 
-The lookup editor is a drop down that references data from another table in the database. It has a Filter text at the top and can dynamically load additional data. It is the [Select2 ](http://select2.github.io/select2/)drop down for jQuery.
+The lookup editor is a drop down that references data from another table in the database. It has a Filter text at the top and can dynamically load additional data. It is the [Select2 ](http://select2.github.io/select2/)drop down for jQuery. Refer to the [Lookup Editors](/lookup-editors.md) section for more information on how to use this Editor.
 
 ### 
 
