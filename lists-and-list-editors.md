@@ -4,7 +4,7 @@
 
 #### Inserting via a Form
 
-When inserting a new item into a List via a Form/Dialog you must override the `validateEntity` function to set the values of expression fields that wouldn't be evaluated client side.
+When inserting a new item into a List via a Form/Dialog you must override the `validateEntity` function to set the values of expression fields that can't be evaluated in memory:
 
 ```js
 protected validateEntity(row: EntityRow, id: number) {
