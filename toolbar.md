@@ -7,7 +7,7 @@ The Grid Toolbar allows you to perform tasks on a Grid like creating a new recor
 To remove the Toolbar buttons from a Grid, override the `getButtons()` function to return null in an EntityGrid TypeScript file like below:
 
 ```js
-protected getButtons() {
+protected getButtons(): Serenity.ToolButton[] {
     return null;
 }
 ```
@@ -18,9 +18,11 @@ Hide the Add Button
 
 To hide the New record button you can use the following code in the Grid.cs file:
 
-```
-protected getButtons() {
-
+```ts
+protected getButtons(): Serenity.ToolButton[] {
+    var buttons = super.getButtons();
+    
+    buttons.splice(Q.indexOf(buttons, x => x.cssClass == "add-button"), 1);
 }
 ```
 
