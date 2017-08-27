@@ -51,7 +51,7 @@ public Decimal ExampleProperty { get; set; }
 
 ##### Decimal places
 
-The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, for the Unit Price in the picture above is set to two decimal places:
+The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, to set an input to two decimal places:
 
 ```csharp
 [DisplayName("Example Property"), Scale(2)]
