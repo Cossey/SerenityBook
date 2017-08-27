@@ -213,8 +213,6 @@ This editor is used for WYSIWYG content editing.
 
 ### Time Editor
 
-
-
 ##### Options
 
 | Option | Name | Type | Description |
