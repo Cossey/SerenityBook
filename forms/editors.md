@@ -42,9 +42,28 @@ This editor has no configurable options.
 
 The email editor consists of two texts boxes divided by an at \(@\) symbol.
 
+##### Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| Domain | Domain | string | Sets the default value of the domain portion of the email address \(second box\). |
+| ReadOnlyDomain | Domain Read Only | bool | Makes the domain portion of the email read only. |
+
+##### Make an email editor accept only a particular email domain
+
+```csharp
+[FormScript("ExampleForm")]
+[BasedOnRow(typeof(Entities.ExampleRow))]
+public class ExampleForm
+{
+    [EmailEditor(Domain = "lockeddomain.com", ReadOnlyDomain = true)]
+    public String Email { get; set; }
+}
+```
+
 ### Password Editor
 
-The password editor allows for text to be entered but masked in the form. 
+The password editor allows for text to be entered but masked in the form.
 
 ![](/assets/passwordeditor.png)
 
