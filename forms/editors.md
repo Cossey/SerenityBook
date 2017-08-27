@@ -61,6 +61,10 @@ public class ExampleForm
 }
 ```
 
+![](/assets/emaileditorlocked.png)
+
+
+
 ### Password Editor
 
 The password editor allows for text to be entered but masked in the form.
