@@ -86,8 +86,6 @@ The masked editor can restrict the input to a specific set of letters or numbers
 | mask | Mask | String | Input mask. Refer to the Input Mask Grid below for supported syntax. |
 | placeholder | Placeholder Text | String | The placeholder character or placeholder text to display. |
 
-
-
 ##### Input Mask Syntax
 
 | Mask | Type | Info |
@@ -96,8 +94,6 @@ The masked editor can restrict the input to a specific set of letters or numbers
 | 9 | Numeric Character | Allow Numeric Character Only. |
 | \* | Alphanumeric Character | Allow Alphanumeric Character. |
 | ? | Optional Input | Any values after this mask are considered optional. |
-
-
 
 ### URL Editor
 
@@ -145,7 +141,9 @@ public Decimal? ExampleProperty
 
 ### Phone Editor
 
-The Phone Editor is for telephone fields. This only supports Turkey telephone and mobile number formatting.
+The Phone Editor is for telephone fields. 
+
+> Only Turkey telephone numbers are supported.
 
 ##### Options
 
