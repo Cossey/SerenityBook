@@ -97,7 +97,11 @@ The masked editor can restrict the input to a specific set of letters or numbers
 
 ### URL Editor
 
-### 
+The URL editor is a simple text input that validates and checks if a URL entered is valid syntax. The input will also prefix `http://` to the text if it is omitted.
+
+##### Options
+
+This editor has no configurable options.
 
 ## Numerical
 
