@@ -16,7 +16,7 @@ This editor has no configurable options.
 
 This text area editor is mainly used in entering descriptions or multi-line text.
 
-##### Editor Options
+##### Options
 
 | Option | Name | Type | Description |
 | :--- | :--- | :--- | :--- |
@@ -51,6 +51,8 @@ The email editor consists of two texts boxes divided by an at \(@\) symbol. The 
 
 ##### Make an email editor accept only a particular email domain
 
+![](/assets/emaileditorlocked.png)
+
 ```csharp
 [FormScript("ExampleForm")]
 [BasedOnRow(typeof(Entities.ExampleRow))]
@@ -60,8 +62,6 @@ public class ExampleForm
     public String Email { get; set; }
 }
 ```
-
-![](/assets/emaileditorlocked.png)
 
 ### Password Editor
 
