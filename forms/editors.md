@@ -109,6 +109,13 @@ Numerical fields restrict the input mainly to numerals. In the case of the Decim
 
 The integer editor only allows for numerals to be entered into a input box.
 
+##### Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| MinValue | Minimum Value | long | Minimum Value that can be entered. |
+| MaxValue | Maximum Value | long | Maximum Value that can be entered. |
+
 ### Decimal Editor
 
 The Decimal Editor allows for a fractional value to be entered into a form.
