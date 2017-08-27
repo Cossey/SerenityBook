@@ -243,7 +243,7 @@ The Date and Time editor allows you to select a date and a time from two drop do
 
 ![](/assets/yeareditor.png)
 
-The year editor allows you to select a year from a drop down list. 
+The year editor allows you to select a year from a drop down list.
 
 > You must specify the starting \(minimum\) and ending \(maximum\) range otherwise the drop down will be empty.
 
