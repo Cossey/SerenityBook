@@ -123,9 +123,7 @@ public Decimal? ExampleProperty
 
 ### Phone Editor
 
-
-
-Options
+##### Options
 
 | Option | Name | Type | Description |
 | :--- | :--- | :--- | :--- |
