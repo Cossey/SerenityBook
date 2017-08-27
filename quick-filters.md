@@ -19,7 +19,7 @@ You can create Quick Filter by applying the `[QuickFilter]` attribute to a Prope
 
 To create a Quick Filter via Code you create the `getQuickFilters()` function and return the list of Filters to want to create.
 
-```js
+```typescript
 protected getQuickFilters(): Serenity.QuickFilter<Serenity.Widget<any>, any>[] {
     //Gets the Filters defined in the Columns or in parent grids.
     let filters = super.getQuickFilters();
