@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Updating Rows \(Client Side\)](updating-rows-client-side.md)
 * [Forms](forms.md)
-  * [Lists and List Editors](lists-and-list-editors.md)
+  * [Lists and List Editors](forms/lists-and-list-editors.md)
   * [Editors](forms/editors.md)
     * [Lookup Editors](forms/editors/lookup-editors.md)
       * [Cascaded Lookups](forms/editors/lookup-editors/cascaded-lookups.md)
