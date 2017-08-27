@@ -141,7 +141,7 @@ public Decimal? ExampleProperty
 
 ### Phone Editor
 
-The Phone Editor is for telephone fields. 
+The Phone Editor is for telephone fields.
 
 > Only Turkey telephone numbers are supported.
 
@@ -161,7 +161,11 @@ The Phone Editor is for telephone fields.
 
 ![](/assets/bool.png)
 
-The boolean editor is typically a checkbox field.
+The boolean editor is a checkbox field that can be selected.
+
+##### Options
+
+This editor has no configurable options.
 
 ### Radio Button Editor
 
