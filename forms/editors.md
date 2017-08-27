@@ -15,8 +15,6 @@ This text area editor is mainly used in entering descriptions or multi-line text
 | Cols | Columns | int |  |
 | Rows | Rows | int | Sets the height in rows of the Text Area. |
 
-
-
 ##### Set a Text Area to 4 Lines in height
 
 This change is made in the `Form.cs` file.
@@ -60,8 +58,6 @@ The integer editor only allows for numerals to be entered into a input box.
 
 The Decimal Editor allows for a fractional value to be entered into a form.
 
-
-
 ##### Minimum and Maximum values
 
 By default the Decimal Editor does not allow negative values. To allow this the `MinValue` and `MaxValue` options must be set.
@@ -90,6 +86,8 @@ public Decimal? ExampleProperty
 
 ### Phone Editor
 
+## Check/Option
+
 ### Boolean Editor
 
 ![](/assets/bool.png)
@@ -100,11 +98,13 @@ The boolean editor is typically a checkbox field.
 
 ### Check List Editor
 
+## Special
+
 ### Check Tree Editor
 
 ### Html Content Editor
 
-This editor is used for WYSIWYG content editing. 
+This editor is used for WYSIWYG content editing.
 
 ![](/assets/htmlcontent.png)
 
