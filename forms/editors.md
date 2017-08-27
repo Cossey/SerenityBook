@@ -213,18 +213,31 @@ This editor is used for WYSIWYG content editing.
 
 ### Time Editor
 
+
+
+##### Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| IntervalMinutes | Time Minute Interval | int | Sets the minute interval. |
+| StartHour | Time Start Hour | int | The Start Hour to show. |
+| EndHour | Time End Hour | int | The End Hour to show. |
+| NoEmptyOption |  | bool |  |
+
 ### Date Time Editor
+
+![](/assets/datetime.png)
 
 The Date and Time editor allows you to select a date and a time from two drop downs.
 
-Options
+##### Options
 
 | Option | Name | Type | Description |
 | :--- | :--- | :--- | :--- |
 | SqlMinMax |  | bool |  |
-| IntervalMinutes | Minute Interval | int | Sets the minute step among the interval time. |
-| StartHour | Start Hour | int |  |
-| EndHour | End Hour | int |  |
+| IntervalMinutes | Time Minute Interval | int | Sets the minute interval time for the Time drop down. |
+| StartHour | Time Start Hour | int | The Start Hour to show in the Time drop down. |
+| EndHour | Time End Hour | int | The End Hour to show in the Time drop down. |
 | MinValue | Minimum Value | DateTime |  |
 | MaxValue | Maximum Value | DateTime |  |
 
