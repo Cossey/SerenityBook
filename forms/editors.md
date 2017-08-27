@@ -30,6 +30,12 @@ public class ExampleForm
 
 ### String Editor
 
+This allows plain text to be entered.
+
+##### Options
+
+This editor has no configurable options.
+
 ### Email Editor
 
 ![](/assets/email.png)
@@ -37,6 +43,16 @@ public class ExampleForm
 The email editor consists of two texts boxes divided by an at \(@\) symbol.
 
 ### Password Editor
+
+The password editor allows for text to be entered but masked in the form. 
+
+![](/assets/passwordeditor.png)
+
+> WARNING: Any Password Editor fields still send their data in plain text format.
+
+##### Options
+
+This editor has no configurable options.
 
 ### Masked Editor
 
