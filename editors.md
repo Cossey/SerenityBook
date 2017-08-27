@@ -1,6 +1,6 @@
 # Form Editors
 
-The following form editors are configured via attributes set on the fields in the `Form.cs` file.
+The following form editors are configured via attributes set on the fields in a `Form.cs` file.
 
 ## Text
 
@@ -54,11 +54,11 @@ public Decimal ExampleProperty { get; set; }
 The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, for the Unit Price in the picture above is set to two decimal places:
 
 ```csharp
-[DisplayName("Unit Price"), Scale(2)]
-public Decimal? Price
+[DisplayName("Example Property"), Scale(2)]
+public Decimal? ExampleProperty
 {
-    get { return Fields.Price[this]; }
-    set { Fields.Price[this] = value; }
+    get { return Fields.ExampleProperty[this]; }
+    set { Fields.ExampleProperty[this] = value; }
 }
 ```
 
