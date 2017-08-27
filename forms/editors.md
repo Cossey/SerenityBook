@@ -77,6 +77,8 @@ This editor has no configurable options.
 
 ### Masked Editor
 
+
+
 ### URL Editor
 
 ### 
@@ -123,14 +125,16 @@ public Decimal? ExampleProperty
 
 ### Phone Editor
 
+The Phone Editor is for telephone fields. This only supports Turkey telephone and mobile number formatting.
+
 ##### Options
 
 | Option | Name | Type | Description |
 | :--- | :--- | :--- | :--- |
 | AllowExtension |  | bool |  |
 | AllowInternational |  | bool |  |
-| Internal |  | bool |  |
-| Mobile |  | bool |  |
+| Internal | Internal Number Format | bool | Validates against a valid internal phone number. |
+| Mobile | Mobile Format | bool | Validates against a valid mobile number. |
 | Multiple |  | bool |  |
 
 ## Check/Option
