@@ -34,7 +34,7 @@ The integer editor only allows for numerals to be entered into a input box.
 
 ### Decimal Editor
 
-The DecimalEditor allows for a fractional value to be entered.
+The Decimal Editor allows for a fractional value to be entered into a form.
 
 #### Options
 
@@ -51,7 +51,7 @@ public Decimal ExampleProperty { get; set; }
 
 ##### Decimal places
 
-The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, to set an input to two decimal places:
+The decimal places can be configured by setting the `Scale` attribute to the amount of places. For example, to set an input of two decimal places:
 
 ```csharp
 [DisplayName("Example Property"), Scale(2)]
@@ -80,8 +80,6 @@ The boolean editor is typically a checkbox field.
 
 ### Html Content Editor
 
-
-
 ## Files and Uploading
 
 ### FileUploadEditor
@@ -91,8 +89,6 @@ The boolean editor is typically a checkbox field.
 ### ImageUploadEditor
 
 ![](/assets/filesel.png)
-
-
 
 ## Date and Time
 
@@ -105,8 +101,6 @@ The Date and Time editor allows you to select a date from a drop down.
 ### DateYearEditor
 
 ### TimeEditor
-
-
 
 ## Drop downs
 
