@@ -14,7 +14,7 @@ protected getButtons(): Serenity.ToolButton[] {
 
 > When removing both the Quick Search and Toolbar Buttons, the area the toolbar occupies above the Grid is hidden.
 
-Hide the Add Button
+##### Hide the Add Button
 
 To hide the New record button you can use the following code in the Grid.cs file:
 
