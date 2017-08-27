@@ -6,6 +6,30 @@ The following form editors are configured via attributes set on the fields in a 
 
 ### Text Area Editor
 
+This text area editor is mainly used in entering descriptions or multi-line text.
+
+##### Editor Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| Cols | Columns | int |  |
+| Rows | Rows | int | Sets the height in rows of the Text Area. |
+
+
+
+##### Set a Text Area to 4 Lines in height
+
+This change is made in the `Form.cs` file.
+
+```csharp
+[BasedOnRow(typeof(Entities.ExampleRow))]
+public class ExampleForm
+{
+    [TextAreaEditor(Rows = 4)]
+    public String ExampleText { get; set; }
+}
+```
+
 ### String Editor
 
 ### Email Editor
@@ -36,7 +60,7 @@ The integer editor only allows for numerals to be entered into a input box.
 
 The Decimal Editor allows for a fractional value to be entered into a form.
 
-#### Options
+
 
 ##### Minimum and Maximum values
 
@@ -80,6 +104,17 @@ The boolean editor is typically a checkbox field.
 
 ### Html Content Editor
 
+This editor is used for WYSIWYG content editing. 
+
+![](/assets/htmlcontent.png)
+
+##### Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| Cols |  |  |  |
+| Rows | Rows | int | Sets the height in rows of the Content Editor. |
+
 ## Files and Uploading
 
 ### File Upload Editor
@@ -97,6 +132,17 @@ The boolean editor is typically a checkbox field.
 ![](/assets/date.png)
 
 The Date and Time editor allows you to select a date from a drop down.
+
+Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| SqlMinMax |  | bool |  |
+| IntervalMinutes | Minute Interval | int | Sets the minute step among the interval time. |
+| StartHour | Start Hour | int |  |
+| EndHour | End Hour | int |  |
+| MinValue | Minimum Value | DateTime |  |
+| MaxValue | Maximum Value | DateTime |  |
 
 ### Date Year Editor
 
