@@ -82,31 +82,31 @@ The boolean editor is typically a checkbox field.
 
 ## Files and Uploading
 
-### FileUploadEditor
+### File Upload Editor
 
 ![](/assets/fileupload.png)
 
-### ImageUploadEditor
+### Image Upload Editor
 
 ![](/assets/filesel.png)
 
 ## Date and Time
 
-### DateTimeEditor
+### Date Time Editor
 
 ![](/assets/date.png)
 
 The Date and Time editor allows you to select a date from a drop down.
 
-### DateYearEditor
+### Date Year Editor
 
-### TimeEditor
+### Time Editor
 
 ## Drop downs
 
-### EnumEditor
+### Enum Editor
 
-### [LookupEditor](/forms/editors/lookup-editors.md)
+### [Lookup Editor](/forms/editors/lookup-editors.md)
 
 ![](/assets/lookup.png)
 
