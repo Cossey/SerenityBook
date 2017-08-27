@@ -12,4 +12,5 @@
   * [Quick Filters](quick-filters.md)
     * [Requiring a Quick Filter Value](quick-filters/require-lookupeditor-value.md)
     * [Cascaded LookupEditors](quick-filters/cascaded-lookupeditors.md)
+  * [Toolbar](toolbar.md)
 
