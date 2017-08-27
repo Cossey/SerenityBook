@@ -80,6 +80,8 @@ The boolean editor is typically a checkbox field.
 
 ### Html Content Editor
 
+
+
 ## Files and Uploading
 
 ### FileUploadEditor
@@ -89,6 +91,8 @@ The boolean editor is typically a checkbox field.
 ### ImageUploadEditor
 
 ![](/assets/filesel.png)
+
+
 
 ## Date and Time
 
@@ -101,6 +105,8 @@ The Date and Time editor allows you to select a date from a drop down.
 ### DateYearEditor
 
 ### TimeEditor
+
+
 
 ## Drop downs
 
