@@ -12,7 +12,7 @@ Set the Select2 option `allowClear` to false by using the Attribute `[QuickFilte
 
 You can set a default value to be selected in the Lookup Editor. This can be done via a Serenity Grid TypeScript File in the `getQuickFilters()` or `createQuickFilters()` functions.
 
-```js
+```typescript
 protected createQuickFilters(): void {
     //Create filters from base class
     super.createQuickFilters();
