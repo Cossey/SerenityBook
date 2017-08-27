@@ -6,7 +6,7 @@
 
 When inserting a new item into a List via a Form/Dialog you must override the `validateEntity` function to set the values of expression fields that can't be evaluated in memory:
 
-```js
+```typescript
 protected validateEntity(row: EntityRow, id: number) {
     if (!super.validateEntity(row, id)) return false;  
 
@@ -21,7 +21,7 @@ protected validateEntity(row: EntityRow, id: number) {
 
 When using a picker to insert items into a List when you have a expression field, you need to populate the expression field as the List is inserted client side and no server callback is performed \(expression fields are done Server side\). For example, the `ProductName` field below:
 
-```js
+```typescript
 var item = <EntityRow>{
     ProductID: sourcerow.ProductID,
     ProductName: sourcerow.ProductName //This is an expression field
