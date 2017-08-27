@@ -106,7 +106,7 @@ The Date and Time editor allows you to select a date from a drop down.
 
 ### EnumEditor
 
-### [LookupEditor](/lookup-editors.md)
+### [LookupEditor](/forms/editors/lookup-editors.md)
 
 ![](/assets/lookup.png)
 
