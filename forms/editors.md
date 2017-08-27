@@ -241,6 +241,19 @@ The Date and Time editor allows you to select a date and a time from two drop do
 
 ### Date Year Editor
 
+![](/assets/yeareditor.png)
+
+The year editor allows you to select a year from a drop down list. 
+
+> You must specify the starting \(minimum\) and ending \(maximum\) range otherwise the drop down will be empty.
+
+##### Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| MinYear | Minimum Year | String | The minimum year to display in the editor. |
+| MaxYear | Maximum Year | String | The maximum year to display in the editor. |
+
 ## Drop downs
 
 ### Enum Editor
