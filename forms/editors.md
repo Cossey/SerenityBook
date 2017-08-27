@@ -77,6 +77,26 @@ This editor has no configurable options.
 
 ### Masked Editor
 
+The masked editor can restrict the input to a specific set of letters or numbers. Serenity uses the [Masked Input Plugin](http://digitalbush.com/projects/masked-input-plugin/).
+
+##### Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| mask | Mask | String | Input mask. Refer to the Input Mask Grid below for supported syntax. |
+| placeholder | Placeholder Text | String | The placeholder character or placeholder text to display. |
+
+
+
+##### Input Mask Syntax
+
+| Mask | Type | Info |
+| :--- | :--- | :--- |
+| a | Alpha Character | Allow Alpha Character Only. |
+| 9 | Numeric Character | Allow Numeric Character Only. |
+| \* | Alphanumeric Character | Allow Alphanumeric Character. |
+| ? | Optional Input | Any values after this mask are considered optional. |
+
 
 
 ### URL Editor
