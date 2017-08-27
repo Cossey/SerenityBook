@@ -207,11 +207,15 @@ This editor is used for WYSIWYG content editing.
 
 ## Date and Time
 
-### Date Time Editor
+### Date Editor
 
 ![](/assets/date.png)
 
-The Date and Time editor allows you to select a date from a drop down.
+### Time Editor
+
+### Date Time Editor
+
+The Date and Time editor allows you to select a date and a time from two drop downs.
 
 Options
 
@@ -225,8 +229,6 @@ Options
 | MaxValue | Maximum Value | DateTime |  |
 
 ### Date Year Editor
-
-### Time Editor
 
 ## Drop downs
 
