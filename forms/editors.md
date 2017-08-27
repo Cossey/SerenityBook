@@ -36,13 +36,11 @@ public class ExampleForm
 }
 ```
 
-
-
 ### Email Editor
 
 ![](/assets/email.png)
 
-The email editor consists of two texts boxes divided by an at \(@\) symbol.
+The email editor consists of two texts boxes divided by an at \(@\) symbol. The second box is the domain part of the email address.
 
 ##### Options
 
@@ -87,7 +85,7 @@ This editor has no configurable options.
 
 ![](/assets/decint.png)
 
-Numerical fields restrict the input mainly to numerals. In the case of the Decimal Editor, the decimal point can also be pressed.
+Numerical fields restrict the input mainly to numerals. In the case of the Decimal Editor, the decimal point is also present.
 
 ### Integer Editor
 
@@ -124,6 +122,18 @@ public Decimal? ExampleProperty
 > In some cases like accounting, you may want to `Scale` to 4 decimal places.
 
 ### Phone Editor
+
+
+
+Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| AllowExtension |  | bool |  |
+| AllowInternational |  | bool |  |
+| Internal |  | bool |  |
+| Mobile |  | bool |  |
+| Multiple |  | bool |  |
 
 ## Check/Option
 
