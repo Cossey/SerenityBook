@@ -1,6 +1,6 @@
 # Grid Toolbar
 
-The Grid Toolbar allows you to perform tasks on a Grid like creating a new record or selecting and configuring column orders. To create or modify buttons you must override the getButtons\(\) function in the Gri
+The Grid Toolbar allows you to perform tasks on a Grid like creating a new record or selecting and configuring column orders. The Quick Search is also the first item of the Toolbar. To create or modify buttons you must override the getButtons\(\) function in the Grid \(look for file name\)
 
 ##### Remove the Toolbar Buttons
 

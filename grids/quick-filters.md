@@ -13,11 +13,26 @@ There are two ways to create Quick Filters
 
 ##### Using Attributes
 
-You can create Quick Filter by applying the `[QuickFilter]` attribute to a Property in a Serenity Column Class. Editors applied to the Column, via the Serenity Row Class will be used for the Filter.
+You can create Quick Filter by applying the `[QuickFilter]` attribute to a Property in a `Column.cs` file. Editors applied to the Column, via the Serenity Row Class will be used for the Filter.
+
+```csharp
+[ColumnsScript("ExampleColumns")]
+[BasedOnRow(typeof(Entities.ExampleRow))]
+public class ExampleColumns
+{
+    public String NonQuickFilteredField { get; set; }
+    
+    [QuickFilter]
+    public String QuickFilteredField { get; set; }
+    
+    [QuickFilter]
+    public String AnotherQuickFilteredField { get; set; }
+}
+```
 
 ##### Using Code
 
-To create a Quick Filter via Code you create the `getQuickFilters()` function and return the list of Filters to want to create.
+To create a Quick Filter via Code you override the `getQuickFilters()` function in the `Grid.ts` file and return an array of Filters to create.
 
 ```typescript
 protected getQuickFilters(): Serenity.QuickFilter<Serenity.Widget<any>, any>[] {
