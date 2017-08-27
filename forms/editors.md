@@ -4,6 +4,14 @@ The following form editors are configured via attributes set on the fields in a 
 
 ## Text
 
+### String Editor
+
+This allows plain text to be entered.
+
+##### Options
+
+This editor has no configurable options.
+
 ### Text Area Editor
 
 This text area editor is mainly used in entering descriptions or multi-line text.
@@ -28,13 +36,7 @@ public class ExampleForm
 }
 ```
 
-### String Editor
 
-This allows plain text to be entered.
-
-##### Options
-
-This editor has no configurable options.
 
 ### Email Editor
 
@@ -62,8 +64,6 @@ public class ExampleForm
 ```
 
 ![](/assets/emaileditorlocked.png)
-
-
 
 ### Password Editor
 
