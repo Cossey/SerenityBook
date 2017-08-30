@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Updating Rows \(Client Side\)](updating-rows-client-side.md)
 * [Forms](forms.md)
   * [Lists and List Editors](forms/lists-and-list-editors.md)
   * [Editors](forms/editors.md)
@@ -13,4 +12,6 @@
     * [Requiring a Quick Filter Value](grids/quick-filters/require-lookupeditor-value.md)
     * [Cascaded LookupEditors](grids/quick-filters/cascaded-lookupeditors.md)
   * [Toolbar](grids/toolbar.md)
+* [Data](data.md)
+  * [Updating Rows \(Client Side\)](updating-rows-client-side.md)
 
