@@ -13,5 +13,6 @@
     * [Cascaded LookupEditors](grids/quick-filters/cascaded-lookupeditors.md)
   * [Toolbar](grids/toolbar.md)
 * [Data](data.md)
-  * [Updating Rows \(Client Side\)](updating-rows-client-side.md)
+  * [Services](updating-rows-client-side.md)
+  * [Rows](rows.md)
 
