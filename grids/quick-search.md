@@ -19,11 +19,34 @@ Options are configured via the `QuickSearch` attribute.
 | Auto |  |
 | Contains | Search anywhere within the columns value for a match |
 | Equals | Search must match columns value exactly |
-| StartsWith |  Column value must start with search text |
+| StartsWith | Column value must start with search text |
 
 
 
-##### Contains Quick Search
+### Quick Search Fields
+
+Since it is possible to apply the QuickSearch attribute to multiple columns in a Row.cs file when searching using the Quick Search it will filter all columns. You can additionally offer specific fields to perform a Quick Search on instead of all fields.
+
+![](/assets/quicksearchfields.png)
+
+The possible fields to choose from are configured from the function `getQuickSearchFields` in the `Grid.ts` file. You must return an object array with name and title properties.
+
+```typescript
+protected getQuickSearchFields(): Serenity.QuickSearchField[] {
+    return [
+        { name: '', title: 'All' },
+        { name: 'CustomerID', title: 'Customer ID' },
+        { name: 'CompanyName', title: 'Company Name' },
+        { name: 'ContactName', title: 'Contact Name' }
+    ];
+}
+```
+
+> You should also include the `{ name: '', title: 'all' }` object first in your own Quick Search Fields so that you can disable filtering by a specific field.
+
+### How Tos
+
+##### Quick Search a Column using Contains
 
 ```csharp
 [DisplayName("Name"), Size(255), NotNull, QuickSearch(SearchType.Contains)]
@@ -33,8 +56,6 @@ public String Name
     set { Fields.Name[this] = value; }
 }
 ```
-
-
 
 ##### Remove the Quick Search
 
