@@ -21,10 +21,10 @@ You can create Quick Filter by applying the `[QuickFilter]` attribute to a Prope
 public class ExampleColumns
 {
     public String NonQuickFilteredField { get; set; }
-    
+
     [QuickFilter]
     public String QuickFilteredField { get; set; }
-    
+
     [QuickFilter]
     public String AnotherQuickFilteredField { get; set; }
 }
@@ -60,6 +60,21 @@ protected getQuickFilters(): Serenity.QuickFilter<Serenity.Widget<any>, any>[] {
     return filters;
 }
 ```
+
+### Quick Filter Options
+
+The quick filter options are configured via the `QuickFilterOption` attribute.
+
+##### Options
+
+| Option | Name | Type | Description |
+| :--- | :--- | :--- | :--- |
+| Multiple | Multiple Select | boolean | Allows the Quick Filter to have multiple values. |
+| CascadeField |  | String |  |
+| CascadeFrom | Cascade Source | String |  |
+| CascadeValue |  | Any |  |
+| FilterFIeld |  | String |  |
+| FilterValue |  | Any |  |
 
 
 
