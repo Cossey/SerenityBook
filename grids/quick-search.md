@@ -40,6 +40,8 @@ protected getQuickSearchFields(): Serenity.QuickSearchField[] {
 }
 ```
 
+The name property above represents the column name and the title property represents the name to display in the drop down/search box.
+
 > You should also include the `{ name: '', title: 'all' }` object first in your own Quick Search Fields so that you can disable filtering by a specific field.
 
 ### How To's
