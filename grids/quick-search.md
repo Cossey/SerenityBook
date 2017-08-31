@@ -21,11 +21,9 @@ Options are configured via the `QuickSearch` attribute.
 | Equals | Search must match columns value exactly |
 | StartsWith | Column value must start with search text |
 
-
-
 ### Quick Search Fields
 
-Since it is possible to apply the QuickSearch attribute to multiple columns in a Row.cs file when searching using the Quick Search it will filter all columns. You can additionally offer specific fields to perform a Quick Search on instead of all fields.
+Since it is possible to apply the QuickSearch attribute to multiple columns in a `Row.cs` file, when searching using the Quick Search it will search all columns with the attribute. You can additionally offer specific fields to perform a Quick Search on instead of all fields via the Quick Search Fields option.
 
 ![](/assets/quicksearchfields.png)
 
@@ -44,7 +42,7 @@ protected getQuickSearchFields(): Serenity.QuickSearchField[] {
 
 > You should also include the `{ name: '', title: 'all' }` object first in your own Quick Search Fields so that you can disable filtering by a specific field.
 
-### How Tos
+### How To's
 
 ##### Quick Search a Column using Contains
 
