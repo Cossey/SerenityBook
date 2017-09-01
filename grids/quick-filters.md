@@ -67,14 +67,14 @@ The quick filter options are configured via the `QuickFilterOption` attribute.
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| Multiple | Multiple Select | boolean | Allows the Quick Filter to have multiple values. |
-| CascadeField |  | String |  |
-| CascadeFrom | Cascade Source | String |  |
-| CascadeValue |  | Any |  |
-| FilterFIeld |  | String |  |
-| FilterValue |  | Any |  |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| Multiple | boolean | Allows the Quick Filter to have multiple values. |
+| CascadeField | String |  |
+| CascadeFrom | String |  |
+| CascadeValue | Any |  |
+| FilterField | String | The ID, Name or LookupInclude field to filter the Lookup by. |
+| FilterValue | Any | The value of the Filter field to filter the Lookup by. |
 
 
 

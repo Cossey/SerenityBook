@@ -18,10 +18,10 @@ This text area editor is mainly used in entering descriptions or multi-line text
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| Cols | Columns | int |  |
-| Rows | Rows | int | Sets the height in rows of the Text Area. |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| Cols | int |  |
+| Rows | int | Sets the height in rows of the Text Area. |
 
 ##### Set a Text Area to 4 Lines in height
 
@@ -44,10 +44,10 @@ The email editor consists of two texts boxes divided by an at \(@\) symbol. The 
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| Domain | Domain | string | Sets the default value of the domain portion of the email address \(second box\). |
-| ReadOnlyDomain | Domain Read Only | bool | Makes the domain portion of the email read only. |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| Domain | string | Sets the default value of the domain portion of the email address \(second box\). |
+| ReadOnlyDomain | bool | Makes the domain portion of the email read only. |
 
 ##### Make an email editor accept only a particular email domain
 
@@ -81,10 +81,10 @@ The masked editor can restrict the input to a specific set of letters or numbers
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| mask | Mask | String | Input mask. Refer to the Input Mask Grid below for supported syntax. |
-| placeholder | Placeholder Text | String | The placeholder character or placeholder text to display. |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| mask | String | Input mask. Refer to the Input Mask Grid below for supported syntax. |
+| placeholder | String | The placeholder character or placeholder text to display. |
 
 ##### Input Mask Syntax
 
@@ -115,10 +115,10 @@ The integer editor only allows for numerals to be entered into a input box.
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| MinValue | Minimum Value | long | Minimum Value that can be entered. |
-| MaxValue | Maximum Value | long | Maximum Value that can be entered. |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| MinValue | long | Minimum Value that can be entered. |
+| MaxValue | long | Maximum Value that can be entered. |
 
 ### Decimal Editor
 
@@ -158,13 +158,13 @@ The Phone Editor is for telephone fields.
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| AllowExtension |  | bool |  |
-| AllowInternational |  | bool |  |
-| Internal | Internal Number Format | bool | Validates against a valid internal phone number. |
-| Mobile | Mobile Format | bool | Validates against a valid mobile number. |
-| Multiple |  | bool |  |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| AllowExtension | bool |  |
+| AllowInternational | bool |  |
+| Internal | bool | Validates against a valid internal phone number. |
+| Mobile | bool | Validates against a valid mobile number. |
+| Multiple | bool |  |
 
 ## Check/Option
 
@@ -194,10 +194,10 @@ This editor is used for WYSIWYG content editing.
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| Cols |  |  |  |
-| Rows | Rows | int | Sets the height in rows of the Content Editor. |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| Cols |  |  |
+| Rows | int | Sets the height in rows of the Content Editor. |
 
 ## Files and Uploading
 
@@ -219,12 +219,12 @@ This editor is used for WYSIWYG content editing.
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| IntervalMinutes | Time Minute Interval | int | Sets the minute interval. |
-| StartHour | Time Start Hour | int | The Start Hour to show. |
-| EndHour | Time End Hour | int | The End Hour to show. |
-| NoEmptyOption |  | bool |  |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| IntervalMinutes | int | Sets the minute interval. |
+| StartHour | int | The Start Hour to show. |
+| EndHour | int | The End Hour to show. |
+| NoEmptyOption | bool |  |
 
 ### Date Time Editor
 
@@ -234,14 +234,14 @@ The Date and Time editor allows you to select a date and a time from two drop do
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| SqlMinMax |  | bool |  |
-| IntervalMinutes | Time Minute Interval | int | Sets the minute interval time for the Time drop down. |
-| StartHour | Time Start Hour | int | The Start Hour to show in the Time drop down. |
-| EndHour | Time End Hour | int | The End Hour to show in the Time drop down. |
-| MinValue | Minimum Value | DateTime |  |
-| MaxValue | Maximum Value | DateTime |  |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| SqlMinMax | bool |  |
+| IntervalMinutes | int | Sets the minute interval time for the Time drop down. |
+| StartHour | int | The Start Hour to show in the Time drop down. |
+| EndHour | int | The End Hour to show in the Time drop down. |
+| MinValue | DateTime |  |
+| MaxValue | DateTime |  |
 
 ### Date Year Editor
 
@@ -253,10 +253,10 @@ The year editor allows you to select a year from a drop down list.
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| MinYear | Minimum Year | String | The minimum year to display in the editor. |
-| MaxYear | Maximum Year | String | The maximum year to display in the editor. |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| MinYear | String | The minimum year to display in the editor. |
+| MaxYear | String | The maximum year to display in the editor. |
 
 ## Drop downs
 

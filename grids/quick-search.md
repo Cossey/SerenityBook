@@ -6,11 +6,11 @@ Options are configured via the `QuickSearch` attribute.
 
 ##### Options
 
-| Option | Name | Type | Description |
-| :--- | :--- | :--- | :--- |
-| searchType | Search Type | Enum _Serenity.Data.Mapping.SearchType_ | Sets the Search type, by default this is StartsWith |
-| numericOnly | Numerical Only | int |  |
-| isExplicit |  | bool |  |
+| Option | Type | Description |
+| :--- | :--- | :--- |
+| searchType | Enum _Serenity.Data.Mapping.SearchType_ | Sets the Search type, by default this is StartsWith |
+| numericOnly | int |  |
+| isExplicit | bool |  |
 
 ##### SearchType \(Serenity.Data.Mapping\)
 
