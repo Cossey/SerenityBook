@@ -23,7 +23,7 @@ protected getButtons(): Serenity.ToolButton[] {
     var buttons = super.getButtons();
 
     buttons.splice(Q.indexOf(buttons, x => x.cssClass == "add-button"), 1);
-    
+
     return buttons;
 }
 ```

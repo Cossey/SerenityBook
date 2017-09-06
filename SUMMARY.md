@@ -15,6 +15,6 @@
   * [Toolbar](grids/toolbar.md)
 * [Data](data.md)
   * [Services](updating-rows-client-side.md)
-  * [Rows](rows.md)
   * [Excel Export](excel-export.md)
+  * [Rows](rows.md)
 
