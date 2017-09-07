@@ -1,6 +1,4 @@
 # Grids
 
-Grids are configured via the Grid.ts files. 
-
-
+Grids are configured via the `Grid.ts` files.
 

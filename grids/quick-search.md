@@ -1,5 +1,7 @@
 # Grid Quick Search
 
+The Quick Search appears in the Grid Toolbar as the first item.
+
 ### Options
 
 Options are configured via the `QuickSearch` attribute.
