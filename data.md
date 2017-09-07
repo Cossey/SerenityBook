@@ -17,5 +17,3 @@ using (IDbConnection connection = SqlConnections.NewFor<ProjectRow>())
 
 
 
-
-
