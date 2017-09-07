@@ -13,6 +13,7 @@
     * [Requiring a Quick Filter Value](grids/quick-filters/require-lookupeditor-value.md)
     * [Cascaded LookupEditors](grids/quick-filters/cascaded-lookupeditors.md)
   * [Toolbar](grids/toolbar.md)
+  * [Columns](grids/columns.md)
 * [Data](data.md)
   * [Services](updating-rows-client-side.md)
   * [Excel Export](excel-export.md)
