@@ -2,6 +2,8 @@
 
 The Grid Toolbar allows you to perform tasks on a Grid like creating a new record or selecting and configuring column orders. The Quick Search is also the first item of the Toolbar. To create or modify buttons you must override the getButtons\(\) function in the `Grid.ts` file.
 
+### How To's
+
 ##### Remove the Toolbar Buttons
 
 To remove the Toolbar buttons from a Grid, override the `getButtons()` function to return null in an EntityGrid TypeScript file like below:
