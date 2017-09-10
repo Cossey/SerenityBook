@@ -76,5 +76,33 @@ The quick filter options are configured via the `QuickFilterOption` attribute.
 | FilterField | String | The ID, Name or LookupInclude field to filter the Lookup by. |
 | FilterValue | Any | The value of the Filter field to filter the Lookup by. |
 
+### How To's
+
+##### Setting Default Filter Value
+
+To set the default value for a Quick Filter, you must override the fields in the `init` function in the `getQuickFilters` function in a`Grid.ts` file.
+
+```typescript
+protected getQuickFilters(): Serenity.QuickFilter<Serenity.Widget<any>, any>[] {
+    //get the quick filters already defined via attributes
+    let filters = super.getQuickFilters();
+    
+    //row fields
+    let fld = OrderRow.Fields;
+    
+    Q.first(filters, x => x.field == fld.NameOfQuickFilterField).init = w => {
+        //For enum lookups (value is string) and for bool yes, no drop downs
+        (w as Serenity.EnumEditor).value = "1";
+        
+        //For lookups (value is string) 
+        (w as Serenity.LookupEditor).value = "";
+    };
+
+    return filters;
+}
+```
+
+
+
 
 
